@@ -123,4 +123,18 @@ class HomePage extends StatelessWidget {
                 child: const Text('Aku Mau Dia'),
               ),
             ),
+            ///Center///
+            const SizedBox(height: 20.0),
+            const Text(
+              '9. Center:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Center(
+              child: Container(
+                width: 100.0,
+                height: 100.0,
+                color: Color.fromARGB(255, 22, 154, 231),
+                child: const Text('Kalau Aku Boleh Gak?'),
+              ),
+            ),
             
