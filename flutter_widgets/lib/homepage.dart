@@ -80,4 +80,14 @@ class HomePage extends StatelessWidget {
             const Icon(Icons.favorite,
                 size: 50.0, color: Color.fromARGB(255, 135, 26, 236)
             ),
+            ///ElevatedButton///
+            const SizedBox(height: 20.0),
+            const Text(
+              '6. ElevatedButton:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text('Kangen Aku'),
+            ),
             
