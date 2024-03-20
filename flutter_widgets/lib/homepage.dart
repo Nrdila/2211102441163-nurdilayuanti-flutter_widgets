@@ -137,4 +137,14 @@ class HomePage extends StatelessWidget {
                 child: const Text('Kalau Aku Boleh Gak?'),
               ),
             ),
+            ///AspectRatio///
+            const SizedBox(height: 20.0),
+            const Text(
+              '10. AspectRatio:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            AspectRatio(
+              aspectRatio: 16 / 9,
+              child: Container(color: Color.fromARGB(255, 207, 205, 41)),
+            ),
             
