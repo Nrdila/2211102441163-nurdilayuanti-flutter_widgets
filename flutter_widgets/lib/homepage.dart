@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
               'Emang kamu gak capek cantik terus?',
               style: TextStyle(fontSize: 16.0),
             ),
-            ////////////////////////////////////////////////////////////////////////////////////////////
+            ///Text///
             const SizedBox(height: 20.0),
             const Text(
               '2. Container:',
@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-            ///////////////////////////////////////////////////////////////////////////////////////////
+            ///Row & Column///
             const SizedBox(height: 20.0),
             const Text(
               '3. Row dan Column:',
@@ -60,3 +60,15 @@ class HomePage extends StatelessWidget {
                     color: const Color.fromARGB(255, 229, 243, 33)),
               ],
             ),
+            ///image///
+            const SizedBox(height: 20.0),
+            const Text(
+              '4. Image:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Image.network(
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcJ4ylKQEQoo9lAIj5ObSeDcDk3O4BY9CfOnJRl-LSmqMSJzc5S2PNiE&s=10',
+              width: 150.0,
+              height: 150.0,
+            ),
+            
